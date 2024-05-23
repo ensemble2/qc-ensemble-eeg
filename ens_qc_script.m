@@ -6,7 +6,7 @@ addpath('~/git/usr/matlab/similar-ear-elephant/')
 
 edffiles = dir('./**/*.edf');
 subj = table();
-for i = 2:length(edffiles)
+for i = 1:length(edffiles)
     everythingOK = true;
     problems = {};
     warnings = {};
